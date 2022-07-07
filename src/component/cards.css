@@ -1,0 +1,218 @@
+body {
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cards {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px rgb(107, 107, 107);
+    margin-bottom: 75px;
+    padding: 50px 0px;
+}
+
+.he {
+    height: 120px;
+}
+
+.im {
+    width: 100% !important;
+}
+
+.jh {
+    height: 170px;
+}
+
+.hei {
+    height: 450px;
+}
+
+.ro {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.k {
+    width: 150px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.b {
+    border-radius: 50% !important;
+}
+
+.a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.bor {
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+form {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    background: #fff;
+}
+
+form p {
+    color: red;
+}
+
+.f {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#content {
+    background: #f9f9f9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#f9f9f9', GradientType=0);
+    box-shadow: 0 1px 0 #fff inset;
+    border: 1px solid #c4c6ca;
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#content h1 {
+    color: #7E7E7E;
+    font: bold 25px Helvetica, Arial, sans-serif;
+    letter-spacing: -0.05em;
+    line-height: 20px;
+    margin: 10px 0 30px;
+}
+
+#content:after,
+#content:before {
+    background: #f9f9f9;
+    border: 1px solid #c4c6ca;
+    content: "";
+    display: block;
+    height: 100%;
+    left: -1px;
+    position: absolute;
+    width: 100%;
+}
+
+#content:after {
+    transform: rotate(2deg);
+    top: 0;
+    z-index: -1;
+}
+
+#content:before {
+    transform: rotate(-3deg);
+    top: 0;
+    z-index: -2;
+}
+
+#content form {
+    margin: 0 20px;
+    position: relative
+}
+
+.hq {
+    height: 110px;
+}
+
+#content form input[type="text"],
+#content form input[type="password"] {
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    transition: all 0.5s ease;
+    background: #eae7e7 url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+    border: 1px solid #c8c8c8;
+    color: #777;
+    font: 13px Helvetica, Arial, sans-serif;
+    margin: 0 0 10px;
+    padding: 15px 10px 15px 40px;
+    width: 80%;
+}
+
+#content form input[type="text"]:focus,
+#content form input[type="password"]:focus {
+    box-shadow: 0 0 2px #ed1c24 inset;
+    background-color: #fff;
+    border: 1px solid #ed1c24;
+    outline: none;
+}
+
+#username,
+#apellidoP {
+    background-position: 10px 10px !important
+}
+
+#password {
+    background-position: 10px -53px !important
+}
+
+#content form input[type="submit"] {
+    background: rgb(254, 231, 154);
+    background: linear-gradient(top, rgba(254, 231, 154, 1) 0%, rgba(254, 193, 81, 1) 100%);
+    border-radius: 30px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+    border: 1px solid #D69E31;
+    color: #85592e;
+    cursor: pointer;
+    float: left;
+    font: bold 15px Helvetica, Arial, sans-serif;
+    height: 35px;
+    margin: 20px 0 35px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    width: 120px;
+}
+
+#content form input[type="submit"]:hover {
+    background: rgb(254, 193, 81);
+    background: linear-gradient(top, rgba(254, 193, 81, 1) 0%, rgba(254, 231, 154, 1) 100%);
+}
+
+#content form div a {
+    color: #004a80;
+    float: right;
+    font-size: 12px;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+}
+
+.imgr {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.cl a {
+    text-decoration: none;
+    color: #7E7E7E;
+}
+
+.clp {
+    color: #7E7E7E;
+}
+
+.nn {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
